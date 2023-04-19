@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <title>Portfolio Website</title>
+
+    <meta name="keywords" content="[Abdu], [Abdoulrahman], JavaScript" />
+
+    <meta name="description" content="[Abdoulrahman Said Daher] | Sofware Developer, Computer Science student, Full Stack, Python, Java" />
+
+    <link rel="icon" type="image/png" href="./assets/html.png" />
+
+    <meta name="theme-color" content="#36d1dc" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="[Abdoulrahman Said Daher] | Developer" />
+    <meta property="og:description" content="I am a dedicated and motivated computer science and software engineering student with proficiency in frontend technologies like HTML, CSS, and JavaScript, as well as backend programming languages such as PHP, Java, and Python, seeking opportunities to apply my skills and knowledge in a professional setting and grow as a software engineer." />
+
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/profilepic.png"
+    />
+
+    
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+   
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+   
+  </head>
+  <body>
+  <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, I'm <span class="text-color-main name">Abdoulrahman Said</span>
+          <br />
+          A Software Developer and Computer Science Student at Multimedia University.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#contact">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profilepic.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am Abdoulrahman Said Daher, a dedicated and motivated computer science and software engineering student at Multimedia University in Malaysia. I possess proficiency in frontend technologies like HTML, CSS, and JavaScript,
+               and backend programming languages such as PHP, Java, and Python. Additionally,
+                I have experience in database management, specifically MySQL and MongoDB. 
+                As an experienced web app developer, 
+                I have a keen interest in mobile and web app UX/UI design and have a strong commitment to continuous improvement.
+                 I am seeking opportunities to apply my skills and knowledge in a professional setting to grow as a software engineer,
+                  and I am eager to learn and develop my skills in design, problem-solving,
+                   and full-stack web application development.
+            </p>
+           
+            <span class="about-wrapper__cta">
+              <a href="#" class="cta-btn cta-btn--resume">Download Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+   <!--Projects Section-->
+   <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+
+         <!-- Each .row is a project -->
+         <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">A* Pathfinding Visualization</h3>
+            <p class="project-wrapper__text-info">
+              This Python project implements the A* path-finding algorithm to find the shortest path between a start and end point on a grid.
+               The program utilizes Pygame to visualize the algorithm in real-time.
+                The program creates a grid of Spots that are either empty, closed, or barriers.
+                 The algorithm uses a priority queue to determine the shortest path to the end point, 
+                 while also avoiding barriers. The visualization displays the search progress and the final shortest path.</p>
+            <div class="project-wrapper__text-btns">
+              <a
+                href="https://drive.google.com/file/d/1Lf7GA7y1HQ9PxlJwv5iuBc4QQ4nUgVyD/view?usp=share_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects"
+                >View Demo</a
+              >
+              <a href="https://github.com/AbdoulrahmanGH/A-Pathfinding-Visualization" target="_blank" class="cta-btn text-color-main"
+                >Source Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/aStar.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Password Generator</h3>
+            <p class="project-wrapper__text-info">
+              This password generator is a user-friendly tool that allows you to create secure passwords of varying length, 
+              and with the option to include upper and lower case characters,
+               symbols, and numbers. With its simple interface and customizable features, 
+               it makes generating strong passwords easy and efficient.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a
+                href="https://password-generator-892.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects"
+                >Live Demo</a
+              >
+              <a href="https://github.com/AbdoulrahmanGH/Password-Generator" target="_blank" class="cta-btn text-color-main"
+                >Source Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://password-generator-892.pages.dev/" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/Web-PGImage.jpg"
+                  class="img-fluid"
+                  alt="Project Image"
+                />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Creditwise (UI/UX)</h3>
+            <p class="project-wrapper__text-info">
+              Creditwise is a sleek and modern finance app UI design created using Adobe XD. 
+              The design features an intuitive and user-friendly interface for both the sign-up and login processes, 
+              providing a seamless experience for users.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a
+                href="https://drive.google.com/file/d/1RjTOzxCmRagoYkBIxJ7VIsXbWwGDiF_X/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects"
+                >View Demo</a
+              >
+              <a href="https://drive.google.com/file/d/1eHyrSqVcYGQOz9czb5z27M8BRBZiHTcV/view?usp=share_link" target="_blank" class="cta-btn text-color-main"
+                >View Design</a
+              >
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/creditwise-png.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Real Time Chatting App</h3>
+            <p class="project-wrapper__text-info">
+              This project is a real-time chat application built using Flask and SocketIO. 
+              The application allows users to create chat rooms and join existing ones,
+               and send messages in real-time to other users in the same room. 
+               The front-end is built with HTML, CSS, and JavaScript,
+                while the back-end is built with Python using Flask and SocketIO for real-time communication. 
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects"
+                >View Demo</a
+              >
+              <a href="https://github.com/AbdoulrahmanGH/Flask-Chat-App" target="_blank" class="cta-btn text-color-main"
+                >Source Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/chatApp.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+           <!-- Each .row is a project -->
+           <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Watch (UI/UX)</h3>
+              <p class="project-wrapper__text-info">
+                The watch purchasing app designed in Adobe XD allows users to browse and select their desired watch from a range of options.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >View Demo</a
+                >
+                <a href="https://drive.google.com/file/d/1FBMzWUoIs9KC3s1NLiO_rEmch12FrLor/view" target="_blank" class="cta-btn text-color-main"
+                  >View Design</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/watchWeb.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Emoji Builder</h3>
+            <p class="project-wrapper__text-info">
+              This project is a custom emoji builder app built using HTML, CSS and JS.
+               The app allows users to create their own emojis by selecting different options for the eyes, 
+               eyebrows, and mouth. The interface has four buttons that allow users to change the color of the emoji,
+                the eyes, eyebrows, and mouth. The app is built with responsive design and has a stylish layout.
+                 It is easy to use and provides a fun way for users to create their own personalized emojis.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a
+                href="https://emoji-builder.pages.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects"
+                >Live Demo</a
+              >
+              <a href="https://github.com/AbdoulrahmanGH/Emoji-Builder" target="_blank" class="cta-btn text-color-main"
+                >Source Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/emoji.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Rock Paper Scissors</h3>
+              <p class="project-wrapper__text-info">
+                The project is a rock-paper-scissors game built with JavaScript, HTML, and CSS. The game features a responsive design, 
+                and a modern user interface.
+                 Users can select rock, paper, or scissors,
+                  and the computer generates a random choice.
+                   The game tracks the user's score, the computer's score,
+                    and draws, with messages displayed to indicate the outcome of each round.
+            
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://rock-paper-scissors-9w3.pages.dev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Live Demo</a
+                >
+                <a href="https://github.com/AbdoulrahmanGH/Rock-Paper-Scissors" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/RPS.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">As an Aspiring Software and Web developer, I'm eager to contribute to your organization's development needs.
+             Feel free to email me at <a href="mailto:abdusaeeduni@gmail.com">abdusaeeduni@gmail.com</a> or via phone at +60108804846 (MY) or +966594553922 (SA) to discuss potential job opportunities</p>
+          <a href="mailto:abdusaeeduni@gmail.com" class="cta-btn cta-btn--resume">Contact Me</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/abdulrahmaan_17/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/abdoulrahman-daher-ba466a245/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+          
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/AbdoulrahmanGH"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span>
+          <a
+            href="https://github.com/AbdoulrahmanGH"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Abdoulrahman Said Daher</a
+          >. <br />
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
